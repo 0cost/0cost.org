@@ -27,7 +27,7 @@ const App = () => {
       <div className="d-flex flex-fill"></div>
 
       <div>
-        <img src={logo} height={48} />
+        <img src={logo} height={128} />
         <div className="display-text text-center">
           <b>{"Under Construction"}</b>
         </div>

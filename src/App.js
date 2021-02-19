@@ -1,12 +1,6 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom';
 import { Button } from '@material-ui/core';
-import Navbar from './components/Navbar';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 const App = () => {
@@ -28,32 +22,20 @@ const App = () => {
   ];
 
   return (
-    <Router>
-      <div className="App">
-        <Navbar title="ZeroCost" routes={routes} />
+    <div className="App">
 
-        <Switch>
-          <Route path="/">
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <p>
-                Edit <code>src/App.js</code> and save to reload.
-              </p>
-              <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="contained" color="primary">
-                  Learn React
-                </Button>
-              </a>
-            </header>
-          </Route>
-        </Switch>
+      <div className="d-flex flex-fill"></div>
+
+      <div>
+        <img src={logo} height={48} />
+        <div className="display-text text-center">
+          <b>{"Under Construction"}</b>
+        </div>
       </div>
-    </Router>
+
+      <div className="d-flex flex-fill"></div>
+
+    </div>
   );
 }
 

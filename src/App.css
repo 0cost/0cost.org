@@ -133,3 +133,15 @@ div[id$="-nav-menu"] .MuiPaper-root {
    * to standardize the look of our buttons in some way. */
   font-size: 0.875rem;
 }
+
+.display-text {
+    font-family: "Roboto";
+}
+
+.display-text b {
+    font-weight: 500;
+}
+
+.display-text small {
+    font-weight: 400;
+}
